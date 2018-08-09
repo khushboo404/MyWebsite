@@ -1,0 +1,452 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+section h2{
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 50px 0px;
+}
+
+p {
+    color: #4e4a4acc;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+/* ==============HEADER================== */
+
+.header {
+    width: 100%;
+    height: 250px;
+    /* background-image: url('../img/Capture.PNG');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: #4f4f4f;
+}
+
+.title_text {
+    color:#ffffff;
+    font-size: 2em;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.29);
+    padding-top: 40px;
+    }
+
+.title_role {
+    color: white;
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 3px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.29);
+}
+
+/* ==========================INTRODUCTION SECTION====================================== */
+
+.bg-transparent {
+    background-color: #00000000;
+}
+
+.profile-picture{
+    width: 180px;
+    height: 180px;
+    z-index: 1;
+    border-radius: 50%;
+    position: relative;
+    top: -90px;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    padding: 5px;
+}
+
+.profile-picture img{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+
+.introduction {
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    width: 80%;
+    background-color: white;
+}
+
+.intro-div{
+    padding: 10px 40px;
+    margin-top: -40px;
+}
+
+.intro-div .text-center{
+    text-align: center;
+}
+
+.intro-div ul{
+    margin-bottom: 30px;
+}
+
+.intro-div .text-center li a i {
+    font-size: 25px;
+    color: #424242;
+    opacity: .5;
+    margin: 0 5px;
+}
+
+.intro-div .text-center li a i:hover {
+    color: #424242;
+    opacity: 1;
+}
+
+.contact-download {
+    margin: 30px 0px;
+}
+
+.contact-download .btn {
+    margin: 10px 10px;
+}
+
+.contact-download a i{
+    margin-right: 8px;
+}
+
+/* ==========================EXPERIENCE SECTION====================================== */
+
+.experience {
+    width: 80%;
+    background-color: white;
+    margin: 50px auto;
+}
+
+.experience .container{
+    padding: 0px;
+    margin: 0px;
+}
+
+.experience p {
+    color: white;
+    padding-top: 20px;
+}
+
+/* ==========================PROJECT SECTION====================================== */
+
+.project-work {
+    margin: 50px auto;
+    width: 80%;
+    background-color: white;
+}
+
+.project-work .card h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.project-work .row{
+    margin: 30px 0px;
+}
+
+.project-work .black_bg{
+    background-color: #4e4a4acc;
+    padding: 20px;
+    color: white;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.project-work .white_bg{
+    background-color: white;
+    padding: 20px;
+    color: #4e4a4acc;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.project-work i {
+    font-size: 40px;
+    padding: 20px;
+    color: #5cb85c;
+}
+
+.project-work .black_bg p {
+    color: white;
+}
+
+/* ==========================ACHIEVEMENT SECTION====================================== */
+
+.achievement {
+    width: 80%;
+    background-color: white;
+    margin: 50px auto;
+}
+
+.achievement .row{
+    margin: 50px 0px;
+}
+
+.achievement .card {
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 30px 20px;
+    margin-top: 40px;
+}
+
+.achievement .achievement_icon {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 0px;
+    left: 50%;
+    margin-left: -35px;
+    border-radius: 50%;
+    background-color: #5cb85c;
+}
+
+.achievement .achievement_icon i {
+    padding: 25px 0px;
+    font-size: 25px;
+    color: #4e4a4acc;
+}
+
+.achievement .card h4 {
+    padding: 20px;
+    font-weight: 800;
+}
+
+
+/* ==========================INTEREST SECTION====================================== */
+
+.interest{
+    width: 80%;
+    background-color: white;
+    margin: 50px auto;
+}
+
+.interest .interest_container {
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 30px 30px;
+}
+
+.interest .interest_list {
+    margin-top: 40px;
+}
+
+.interest_list .interest_topic {
+    margin: 15px 20px;
+}
+
+.interest_list .interest_topic i {
+    display: block;
+    font-size: 35px;
+    padding: 0;
+    color: #424242;
+    margin-bottom: 20px;
+}
+
+.interest_list .interest_topic span {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* ==========================CONTACT SECTION====================================== */
+
+.contact {
+    width: 80%;
+    background-color: white;
+    margin: 50px auto;
+}
+
+.contact .left_contact {
+    background-color: #424242;
+    padding: 30px;
+    color: white;
+}
+
+.left_contact .contact_list {
+    list-style-type: none;
+}
+
+.contact_list .contact_option i{
+    display: block;
+    font-size: 35px;
+    padding: 0;
+    margin: 20px 0px;
+}
+
+.contact_list span {
+    font-size: 18px;
+}
+
+.right_contact {
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 0px 20px;
+}
+
+.right_contact button {
+    width: 150px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.right_contact button i {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.right_contact .button_send {
+    margin-left: 40%;
+}
+
+.right_contact .space {
+    padding: 15px 0px;
+}
+
+/* ==========================FLOATING SECTION====================================== */
+
+/* BACK TO TOP */
+
+.back-to-top .back-to-top-is-visible{
+    visibility: visible;
+    opacity: 1;
+}
+
+.back-to-top {
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 999;
+}
+
+.back-to-top i {
+    font-size: 50px;
+    color: #5cb85c;
+}
+
+/* BACK TO INTEREST */
+
+.back-to-interest .back-to-interest-is-visible{
+    visibility: visible;
+    opacity: 1;
+}
+
+.back-to-interest {
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    bottom: 40px;
+    left: 40px;
+    z-index: 999;
+}
+
+.back-to-interest i {
+    font-size: 50px;
+    color: 	#d9534f;
+}
+
+/* BACK TO EXPERIENCE */
+
+.back-to-experience .back-to-experience-is-visible{
+    visibility: visible;
+    opacity: 1;
+}
+
+.back-to-experience {
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    bottom: 140px;
+    right: 40px;
+    z-index: 999;
+}
+
+.back-to-experience i {
+    font-size: 50px;
+}
+
+/* BACK TO CONTACT */
+
+.back-to-contact .back-to-experience-is-visible{
+    visibility: visible;
+    opacity: 1;
+}
+
+.back-to-contact {
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    bottom: 140px;
+    left: 40px;
+    z-index: 999;
+}
+
+.back-to-contact i {
+    font-size: 50px;
+    color: #5bc0de;
+}
+
+/* BACK TO PROJECTS */
+
+
+.back-to-project-work .back-to-project-work-is-visible{
+    visibility: visible;
+    opacity: 1;
+}
+
+.back-to-project-work {
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    bottom: 240px;
+    left: 40px;
+    z-index: 999;
+}
+
+.back-to-project-work i {
+    font-size: 50px;
+}
+
+/* BACK TO ACHIEVEMENTS */
+
+
+.back-to-achievement .back-to-achievement-is-visible{
+    visibility: visible;
+    opacity: 1;
+}
+
+.back-to-achievement {
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    bottom: 240px;
+    right: 40px;
+    z-index: 999;
+}
+
+.back-to-achievement i {
+    font-size: 50px;
+    color: #d9534f;
+}
+
+
+
+/* ==========================FOOTER SECTION====================================== */
+
+.footer{
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #424242;
+}
