@@ -98,6 +98,22 @@
     .contact .left_contact {
         margin: 20px 0px;
     }
+
+    /* interest */
+
+    .interest {
+        width: 95% !important;
+    }
+
+    /* achievement */
+
+    .achievement .card {
+        margin: 60px 0px;
+    }
+
+    .achievement .row {
+        margin: 0px !important;
+    }
 }
 
 @media only screen and (min-width : 481px) and (max-width:768px) {
@@ -186,6 +202,20 @@
 
     .contact .left_contact {
         margin: 20px 0px;
+    }
+
+    .interest {
+        width: 95% !important;
+    }
+
+    /* achievement */
+
+    .achievement .card {
+        margin: 60px 0px;
+    }
+
+    .achievement .row {
+        margin: 0px !important;
     }
 }
 
@@ -289,4 +319,136 @@
     .contact .left_contact {
         margin: 20px 0px;
     }
+
+    .interest {
+        width: 95% !important;
+    }
+
+    /* achievement */
+
+    .achievement .card {
+        margin: 60px 0px;
+    }
+
+    .achievement .row {
+        margin: 0px !important;
+    }
+}
+
+@media only screen and (min-width : 993px) and (max-width:1200px) {
+    section {
+        width: 100% !important;
+    }
+
+    .introduction {
+        width: 90% !important;
+    }
+
+    /* Navigation */
+
+    .back-to-top{
+        visibility: hidden;
+    }
+
+    .back-to-interest {
+        visibility: hidden;
+    }
+
+    .back-to-experience {
+        visibility: hidden;
+    }
+
+    .back-to-contact {
+        visibility: hidden;
+    }
+
+    .back-to-project-work {
+        visibility: hidden;
+    }
+
+    .back-to-achievement {
+        visibility: hidden;
+    }
+
+    .introduction .intro-div p {
+        text-align: center;
+    }
+
+    .intro-div{
+        padding: 10px 20px !important;
+    }
+
+    /* Header */
+
+    .title_text {
+        font-size: 1.8em !important;
+    }
+
+    .title_role {
+        font-size: 1.5em !important;
+    }
+
+    /* experience */
+
+    .experience {
+        font-weight: 300;
+        width: 90% !important;
+    }
+
+    .experience p {
+        font-size: 14px;
+        text-align: justify;
+    }
+    
+    .carousel-caption .role{
+        font-size: 18px;
+    }
+
+    .carousel-caption .organisation{
+        font-size: 16px;
+    }
+
+    .carousel-caption .period{
+        font-size: 14px;
+    }
+
+    /* project */
+
+    .project-work .card {
+        margin: 20px 0px;
+    }
+
+    .project-work .row {
+        margin: 0px !important;
+    }
+
+    .achievement .achievement_icon {
+        top: -40px !important;
+    }
+
+    /* contact */
+
+    .contact {
+        width: 90% !important;
+    }
+
+    .contact .left_contact {
+        margin: 20px 0px;
+    }
+
+    .interest {
+        width: 95% !important;
+    }
+
+    /* achievement */
+
+    .achievement .card {
+        margin: 60px 0px;
+    }
+
+    .achievement .row {
+        margin: 0px !important;
+    }
+
+    
 }
