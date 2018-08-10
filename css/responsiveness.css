@@ -3,6 +3,10 @@
         width: 100% !important;
     }
 
+    .introduction {
+        width: 95% !important;
+    }
+
     /* Navigation */
 
     .back-to-top{
@@ -51,6 +55,7 @@
 
     .experience {
         font-weight: 0;
+        width: 95% !important;
     }
 
     .experience p {
@@ -82,6 +87,16 @@
 
     .achievement .achievement_icon {
         top: -40px !important;
+    }
+
+    /* contact */
+
+    .contact {
+        width: 95% !important;
+    }
+
+    .contact .left_contact {
+        margin: 20px 0px;
     }
 }
 
@@ -167,5 +182,111 @@
 
     .project-work .row {
         margin: 0px;
+    }
+
+    .contact .left_contact {
+        margin: 20px 0px;
+    }
+}
+
+@media only screen and (min-width : 769px) and (max-width:992px) {
+    section {
+        width: 100% !important;
+    }
+
+    .introduction {
+        width: 90% !important;
+    }
+
+    /* Navigation */
+
+    .back-to-top{
+        visibility: hidden;
+    }
+
+    .back-to-interest {
+        visibility: hidden;
+    }
+
+    .back-to-experience {
+        visibility: hidden;
+    }
+
+    .back-to-contact {
+        visibility: hidden;
+    }
+
+    .back-to-project-work {
+        visibility: hidden;
+    }
+
+    .back-to-achievement {
+        visibility: hidden;
+    }
+
+    .introduction .intro-div p {
+        text-align: center;
+    }
+
+    .intro-div{
+        padding: 10px 20px !important;
+    }
+
+    /* Header */
+
+    .title_text {
+        font-size: 1.8em !important;
+    }
+
+    .title_role {
+        font-size: 1.5em !important;
+    }
+
+    /* experience */
+
+    .experience {
+        font-weight: 300;
+        width: 90% !important;
+    }
+
+    .experience p {
+        font-size: 14px;
+        text-align: justify;
+    }
+    
+    .carousel-caption .role{
+        font-size: 18px;
+    }
+
+    .carousel-caption .organisation{
+        font-size: 16px;
+    }
+
+    .carousel-caption .period{
+        font-size: 14px;
+    }
+
+    /* project */
+
+    .project-work .card {
+        margin: 20px 0px;
+    }
+
+    .project-work .row {
+        margin: 0px !important;
+    }
+
+    .achievement .achievement_icon {
+        top: -40px !important;
+    }
+
+    /* contact */
+
+    .contact {
+        width: 90% !important;
+    }
+
+    .contact .left_contact {
+        margin: 20px 0px;
     }
 }
