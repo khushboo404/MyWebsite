@@ -21,6 +21,14 @@ p {
     font-size: 16px;
 }
 
+.container-fluid{
+    padding: 0px !important;
+}
+
+.text-center {
+    text-align: center;
+}
+
 /* ==============HEADER================== */
 
 .header {
@@ -139,6 +147,10 @@ p {
 .experience p {
     color: white;
     padding-top: 20px;
+}
+
+#myCarousel {
+    height: auto;
 }
 
 /* ==========================PROJECT SECTION====================================== */
