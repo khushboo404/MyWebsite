@@ -323,6 +323,10 @@ p {
     padding: 15px 0px;
 }
 
+.contact .left_contact ul {
+    padding: 0px;
+}
+
 /* ==========================FLOATING SECTION====================================== */
 
 /* BACK TO TOP */
