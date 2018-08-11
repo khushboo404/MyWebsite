@@ -217,6 +217,10 @@
     .achievement .row {
         margin: 0px !important;
     }
+
+    .achievement .achievement_icon {
+        top: -40px !important;
+    }
 }
 
 @media only screen and (min-width : 769px) and (max-width:992px) {
@@ -450,5 +454,8 @@
         margin: 0px !important;
     }
 
+    .achievement .achievement_icon {
+        top: 0px !important;
+    }
     
 }
